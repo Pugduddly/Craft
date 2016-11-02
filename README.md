@@ -1,6 +1,7 @@
-## Craft
+## Mine
 
 Minecraft clone for Windows, Mac OS X and Linux. Just a few thousand lines of C using modern OpenGL (shaders). Online multiplayer support is included using a Python-based server.
+Mine is based on https://github.com/fogleman/Craft (which, by the way, is pretty dang cool! check it out).
 
 http://www.michaelfogleman.com/craft/
 
@@ -18,11 +19,7 @@ http://www.michaelfogleman.com/craft/
 
 ### Download
 
-Mac and Windows binaries are available on the website.
-
-http://www.michaelfogleman.com/craft/
-
-See below to run from source.
+Mine doesn't have any pre-compiled binaries yet... :I
 
 ### Install Dependencies
 
@@ -57,15 +54,16 @@ Use the following commands in place of the ones described in the next section.
 Once you have the dependencies (see above), run the following commands in your
 terminal.
 
-    git clone https://github.com/fogleman/Craft.git
-    cd Craft
+    git clone https://github.com/Pugduddly/Mine.git
+    cd Mine
     cmake .
     make
-    ./craft
+    ./mine
 
 ### Multiplayer
 
 Register for an account!
+(since Mine is based on Craft, it uses the same account system)
 
 https://craft.michaelfogleman.com/
 
@@ -73,7 +71,7 @@ https://craft.michaelfogleman.com/
 
 You can connect to a server with command line arguments...
 
-    ./craft craft.michaelfogleman.com
+    ./mine craft.michaelfogleman.com
 
 Or, with the "/online" command in the game itself.
 
